@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Stack<T> {
 
-    private LinkedList ls = new LinkedList();
+    private LinkedList<T> ls = new LinkedList<>();
 
     public int size() {
         return ls.size();
